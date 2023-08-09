@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+  <Alert>function( msg ){_utils.Alert(msg);}</Alert>
+  <Prompt>function( msg, dflt ){return _utils.Prompt(msg, dflt);}</Prompt>
+  <Confirm>function( msg ){return _utils.Confirm(msg);}</Confirm>
+  <GetVersion>function( num, txt ) { return _utils.GetVersion(num, txt);}</GetVersion>
+  <GetSource>function( ){ return _utils.GetSource(); }</GetSource>
+  <Document>function() { return _utils.Document();}</Document>
+  <Window>function() { return _utils.Window();}</Window>
+  <Stringify>function( str ) { return _utils.Stringify(str);}</Stringify>
+  <Parse>function( str ) { return _utils.Parse(str);}</Parse>
+  <ToUnicode>function( string ) { return _utils.ToUnicode(string);}</ToUnicode>
+  <HexToRgb>function( hex ) { return _utils.HexToRgb(hex);}</HexToRgb>
+  <HexToRgba>function( hex ) { return _utils.HexToRgba(hex);}</HexToRgba>
+  <RgbToHex>function( rgb ) { return _utils.RgbToHex(rgb);}</RgbToHex>
+  <RgbaToHex>function( rgba ) { return _utils.RgbaToHex(rgba);}</RgbaToHex>
+  <GetObjectFunctionsParameterNames>function( func ) { return _utils.GetObjectFunctionsParameterNames(func);}</GetObjectFunctionsParameterNames>
+  <GetObjectFunctions>function( objName ) { return _utils.GetObjectFunctions(objName);}</GetObjectFunctions>
+  <Clone>function( obj ) { return _utils.Clone(objName);}</Clone>
+  <Remove>function( array, item ) { return _utils.Remove(array, item);}</Remove>
+  <RemoveAll>function( array ) { return _utils.RemoveAll(array);}</RemoveAll>
+  <GetFileTitle>function( fileName, noExtension ) { return _utils.GetFileTitle(fileName, noExtension);}</GetFileTitle>
+  <RandomIntegerRange>function( rFrom, rTo ) { return _utils.RandomIntegerRange(rFrom, rTo);}</RandomIntegerRange>
+  <RandomFloatRange>function( rFrom, rTo ) { return _utils.RandomFloatRange(rFrom, rTo);}</RandomFloatRange>
+  <RandomHexColor>function( withAlpha ) { return _utils.RandomHexColor(withAlpha);}</RandomHexColor>
+  <Shuffle>function( array ) { return _utils.Shuffle(array);}</Shuffle>
+  <Hex>function( s ) { return _utils.Hex(s);}</Hex>
+  <HSVToRGB>function( hh, ss, vv ) { return _utils.HSVToRGB(hh, ss, vv);}</HSVToRGB>
+  <RGBToHSV>function( rr, gg, bb ) { return _utils.RGBToHSV(rr, gg, bb);}</RGBToHSV>
+  <Extend>function( o ) { return _utils.Extend(o);}</Extend>
+  <KilometersToMiles>function( kilometers ) { return _utils.KilometersToMiles(kilometers);}</KilometersToMiles>
+  <MilesToKilometers>function( miles ) { return _utils.MilesToKilometers(miles);}</MilesToKilometers>
+  <FahrenheitToCelsius>function( fahrenheit ) { return _utils.FahrenheitToCelsius(fahrenheit);}</FahrenheitToCelsius>
+  <FahrenheitToKelvin>function( fahrenheit ) { return _utils.FahrenheitToKelvin(fahrenheit);}</FahrenheitToKelvin>
+  <CelsiusToFahrenheit>function( celsius ) { return _utils.CelsiusToFahrenheit(celsius);}</CelsiusToFahrenheit>
+  <CelsiusToKelvin>function( celsius ) { return _utils.CelsiusToKelvin(celsius);}</CelsiusToKelvin>
+  <KelvinToCelsius>function( kelvin ) { return _utils.KelvinToCelsius(kelvin);}</KelvinToCelsius>
+  <KelvinToFahrenheit>function( kelvin ) { return _utils.KelvinToFahrenheit(kelvin);}</KelvinToFahrenheit>
+  <GetType>function() { return _utils.GetType();}</GetType>
+  <GetMethods>function() { return _utils.GetMethods();}</GetMethods>
+  <ImageToCanvas>function(img) { return _utils.ImageToCanvas(img);}</ImageToCanvas>
+  <CreateCanvas>function(cont, img) { return _utils.CreateCanvas(cont, img);}</CreateCanvas>
+  <GetDecFromHex>function(h) { return _utils.GetDecFromHex(h);}</GetDecFromHex>
+  <HexToDarkerHex>function(hex, percent) { return _utils.HexToDarkerHex(hex, percent);}</HexToDarkerHex>
+  <HexToLighterHex>function(hex, percent) { return _utils.HexToLighterHex(hex, percent);}</HexToLighterHex>
+  <Guid>function () { return _utils.Guid();}</Guid>
+  <GuidAlternate>function () { return _utils.GuidAlternate();}</GuidAlternate>
+  <GetGradientColors>function (colors) { return _utils.GetGradientColors(colors);}</GetGradientColors>
+  <CreatePlugin>function (name) { _utils.CreatePlugin(name);}</CreatePlugin>
+  <ZipFolder>function (source, destination) { _utils.ZipFolder(source,destination);}</ZipFolder>
+  <CountMethods>function () { return _utils.CountMethods();}</CountMethods>
+  <SetTimeout>function (funcName, interval) { return _utils.SetTimeout(funcName, interval);}</SetTimeout>
+  <SetInterval>function (funcName, interval) { return _utils.SetInterval(funcName, interval);}</SetInterval>
+</root>
